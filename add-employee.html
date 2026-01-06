@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Employee</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <h2>HR Panel</h2>
+    <ul>
+      <li><a href="index.html">🏠 Dashboard</a></li>
+      <li><a href="employees.html">👥 Employees</a></li>
+      <li><a href="add-employee.html" class="active">➕ Add Employee</a></li>
+      <li><a href="attendance.html">🕒 Attendance</a></li>
+      <li><a href="team.html" class="active">🤝 Team Formation</a></li>
+    </ul>
+  </aside>
+
+  <section class="main-content">
+    <header>
+      <h1>Add New Employee</h1>
+      <div class="user">👤 Admin</div>
+    </header>
+
+    <form id="addEmployeeForm" class="employee-form">
+      <label>Full Name:</label>
+      <input type="text" id="name" required placeholder="Enter employee name">
+
+      <label>Department:</label>
+      <input type="text" id="department" required placeholder="Enter department">
+
+      <label>Role:</label>
+      <input type="text" id="role" required placeholder="Enter role">
+
+      <button type="submit">Add Employee</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

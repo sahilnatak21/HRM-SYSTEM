@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <h2>HR Panel</h2>
+    <ul>
+      <li><a href="index.html">🏠 Dashboard</a></li>
+      <li><a href="employees.html" class="active">👥 Employees</a></li>
+      <li><a href="add-employee.html">➕ Add Employee</a></li>
+      <li><a href="attendance.html">🕒 Attendance</a></li>
+      <li><a href="team.html" class="active">🤝 Team Formation</a></li>
+    </ul>
+  </aside>
+
+  <section class="main-content">
+    <header>
+      <h1>Employee List</h1>
+      <div class="user">👤 Admin</div>
+    </header>
+
+    <table id="employeeTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Department</th>
+          <th>Role</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

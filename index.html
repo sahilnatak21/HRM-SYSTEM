@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HR Management Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>HR Panel</h2>
+    <ul>
+      <li><a href="index.html" class="active">🏠 Dashboard</a></li>
+      <li><a href="employees.html">👥 Employees</a></li>
+      <li><a href="add-employee.html">➕ Add Employee</a></li>
+      <li><a href="attendance.html">🕒 Attendance</a></li>
+      <li><a href="team.html" class="active">🤝 Team Formation</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <section class="main-content">
+    <header>
+      <h1>Dashboard</h1>
+      <div class="user">👤 Admin</div>
+    </header>
+
+    <div class="cards">
+      <div class="card blue">
+        <h3>Total Employees</h3>
+        <p id="totalEmployees">0</p>
+      </div>
+      <div class="card green">
+        <h3>Departments</h3>
+        <p>5</p>
+      </div>
+      <div class="card orange">
+        <h3>Attendance Rate</h3>
+        <p>95%</p>
+      </div>
+    </div>
+
+    <div class="welcome">
+      <h2>Welcome to AI Based HR Management System</h2>
+      <p>Manage employees, attendance, Team Formation all in one place</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
